@@ -39,6 +39,10 @@ body {
     margin: 0 5px;
 }
 
+.icon-link {
+    text-decoration: none;
+}
+
 .icon-link:hover i {
     background: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
     background-clip: text;
