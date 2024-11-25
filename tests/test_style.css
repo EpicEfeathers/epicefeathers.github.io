@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.information {
+    width:60%; 
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.information h1, h2 {
+    color: white;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.information p {
+    margin: 0;
+    padding: 5px 10px;
+    padding-top: 0px;
+}
+
+.projects {
+    border-style: solid;
+    border-color: rgb(100,100,100);
+
+    border-width: 1px;
+    border-radius: 15px;
+    height: 50px;
+    width: 60%;
+
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    cursor: pointer;
+
+    position: relative;
+  }
+
+.projects:hover {
+    border-color: rgb(74, 151, 232);
+    background-color: rgb(30,30,30);
+    transform: scale(1.01);
+    transition: transform 0.2s ease;
+}
+
+
+.projects a.ext {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:0;
+}
+
+
+.projects a.int {
+    position:relative;
+    z-index:999;
+    color: white
+}
+
+div a.int:hover {
+    color: rgb(74, 151, 232);
+}

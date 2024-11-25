@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(20,20,20);
+    color: rgb(200,200,200);
+    text-align: center;
+    font-family: Roboto, serif;
+}
+
+/* Classes */
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.information {
+    width:60%; 
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.information h1, h2 {
+    color: white;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.information p {
+    margin: 0;
+    padding: 5px 10px;
+    padding-top: 0px;
+}
