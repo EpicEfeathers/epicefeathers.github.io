@@ -73,13 +73,14 @@ body {
 
     cursor: pointer;
     position: relative;
+
+    transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 .projects:hover {
     border-color: rgb(74, 151, 232);
     background-color: rgb(30,30,30);
     transform: scale(1.01);
-    transition: transform 0.2s ease;
 }
 
 .projects a.ext {
@@ -112,4 +113,13 @@ div a.int:hover {
 
 .footer a:hover {
     color: rgb(74, 151, 232);
+}
+
+
+
+p img {
+    height: 15px;
+    width: auto;
+    vertical-align: middle;
+    margin-top:-3px;
 }
