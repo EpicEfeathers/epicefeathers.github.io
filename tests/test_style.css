@@ -1,11 +1,7 @@
 body {
-    background-color: rgb(20,20,20);
-    color: rgb(200,200,200);
-    text-align: center;
-    font-family: Roboto, serif;
+    background-color: black;
+    color: white;
 }
-
-/* Classes */
 
 .title {
     color: white;
@@ -31,33 +27,6 @@ body {
     padding-top: 0px;
 }
 
-
-.name_gradient {
-    background-image: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
-    color: transparent;
-    background-clip: text;
-}
-
-.links i {
-    vertical-align: middle;
-    color: white;
-    font-size: 36px;
-    margin: 0 5px;
-}
-
-.icon-link {
-    text-decoration: none;
-}
-
-.icon-link:hover i {
-    background: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
-    background-clip: text;
-    color: transparent;
-    transform: scale(1.1);
-    transition: transform 0.2s ease;
-}
-
-
 .projects {
     border-style: solid;
     border-color: rgb(100,100,100);
@@ -72,8 +41,9 @@ body {
     padding-bottom: 20px;
 
     cursor: pointer;
+
     position: relative;
-}
+  }
 
 .projects:hover {
     border-color: rgb(74, 151, 232);
@@ -81,6 +51,7 @@ body {
     transform: scale(1.01);
     transition: transform 0.2s ease;
 }
+
 
 .projects a.ext {
     position:absolute;
@@ -99,17 +70,5 @@ body {
 }
 
 div a.int:hover {
-    color: rgb(74, 151, 232);
-}
-
-.footer {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-.footer a {
-    color:rgb(200,200,200);
-}
-
-.footer a:hover {
     color: rgb(74, 151, 232);
 }
