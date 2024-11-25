@@ -5,6 +5,10 @@ body {
     font-family: Roboto, serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* Classes */
 
 .title {
@@ -13,7 +17,7 @@ body {
 }
 
 .information {
-    width:60%; 
+    width:45%; 
     margin: 0 auto;
     text-align: left;
     padding-top: 50px;
@@ -64,12 +68,10 @@ body {
 
     border-width: 1px;
     border-radius: 15px;
-    height: 50px;
-    width: 60%;
+    width: 100%;
 
     margin-top: 10px;
     padding: 10px;
-    padding-bottom: 20px;
 
     cursor: pointer;
     position: relative;
