@@ -101,7 +101,7 @@ p img {
 .projects p {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: clip;
+    text-overflow: ellipsis;
 }
 
 
