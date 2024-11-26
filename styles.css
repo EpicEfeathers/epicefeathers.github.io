@@ -5,6 +5,13 @@ body {
     font-family: Roboto, serif;
 }
 
+p img {
+    height: 15px;
+    width: auto;
+    vertical-align: middle;
+    margin-top:-3px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -39,7 +46,7 @@ body {
 }
 
 .information {
-    width:75%; 
+    width:85%; 
     margin: 0 auto;
     text-align: left;
     padding-top: 50px;
@@ -71,18 +78,6 @@ body {
     margin: 0 5px;
 }
 
-.icon-link {
-    text-decoration: none;
-}
-
-.icon-link:hover i {
-    background: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
-    background-clip: text;
-    color: transparent;
-    transform: scale(1.1);
-    transition: transform 0.2s ease;
-}
-
 
 .projects {
     border-style: solid;
@@ -94,7 +89,7 @@ body {
 
     margin-top: 10px;
     padding: 10px;
-
+    padding-right: 21px; /* Account for padding in .information p as well */
     cursor: pointer;
     position: relative;
 
@@ -106,6 +101,13 @@ body {
     background-color: rgb(30,30,30);
     /*transform: scale(1.01);*/
 }
+
+.projects p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
 
 .projects a.ext {
     position:absolute;
@@ -139,11 +141,14 @@ div a.int:hover {
     color: rgb(74, 151, 232);
 }
 
+.icon-link {
+    text-decoration: none;
+}
 
-
-p img {
-    height: 15px;
-    width: auto;
-    vertical-align: middle;
-    margin-top:-3px;
+.icon-link:hover i {
+    background: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
