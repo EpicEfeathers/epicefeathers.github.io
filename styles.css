@@ -22,11 +22,7 @@ p img {
     font-size: 40px;
 }
 
-@media (max-width: 330px) {
-    .name {
-        font-size: 35px;
-    }
-}
+
 
 @media (min-width: 600px) {
     .name {
@@ -46,7 +42,7 @@ p img {
 }
 
 .information {
-    width:85%; 
+    width:95%; 
     margin: 0 auto;
     text-align: left;
     padding-top: 50px;
