@@ -17,7 +17,7 @@ body {
 
 @media (max-width: 330px) {
     .name {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
@@ -45,9 +45,10 @@ body {
     padding-top: 50px;
 }
 
-@media (min-width: 600px) {
+
+@media (min-width: 800px) {
     .information {
-      width: 40%;
+        width: 600px;
     }
 }
 
@@ -103,7 +104,7 @@ body {
 .projects:hover {
     border-color: rgb(74, 151, 232);
     background-color: rgb(30,30,30);
-    transform: scale(1.01);
+    /*transform: scale(1.01);*/
 }
 
 .projects a.ext {
