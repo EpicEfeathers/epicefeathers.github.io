@@ -11,16 +11,44 @@ body {
 
 /* Classes */
 
+.name {
+    font-size: 40px;
+}
+
+@media (max-width: 330px) {
+    .name {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) {
+    .name {
+        font-size: 50px;
+    }
+}
+
+.name_gradient {
+    background-image: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
+    color: transparent;
+    background-clip: text;
+}
+
 .title {
     color: white;
     font-size: 20px;
 }
 
 .information {
-    width:40%; 
+    width:75%; 
     margin: 0 auto;
     text-align: left;
     padding-top: 50px;
+}
+
+@media (min-width: 600px) {
+    .information {
+      width: 40%;
+    }
 }
 
 .information h1, h2 {
@@ -33,13 +61,6 @@ body {
     margin: 0;
     padding: 5px 10px;
     padding-top: 0px;
-}
-
-
-.name_gradient {
-    background-image: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
-    color: transparent;
-    background-clip: text;
 }
 
 .links i {
