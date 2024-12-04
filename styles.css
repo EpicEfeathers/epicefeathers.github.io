@@ -148,7 +148,7 @@ div a.int:hover {
     margin-bottom: 25px;
 }
 .footer a {
-    color:rgb(200,200,200);
+    color: var(--text-color);
 }
 
 .footer a:hover {
@@ -163,6 +163,31 @@ div a.int:hover {
 .icon-link:hover i {
     background: linear-gradient(rgb(74, 151, 232), rgb(57, 57, 217));
     background-clip: text;
+    color: transparent;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    color: white;
+    cursor: pointer;
+
+    margin-left: 20px;
+}
+
+.toggle-btn i {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.toggle-btn:hover {
     color: transparent;
     transform: scale(1.1);
     transition: transform 0.2s ease;
