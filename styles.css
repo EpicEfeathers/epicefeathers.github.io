@@ -6,7 +6,7 @@
     --projects-background: rgb(30,30,30);
 }
 
-body.dark-mode {
+:root.dark-mode {
     --background-color: rgb(255,255,255);
     --text-color: rgb(55,55,55);
     --white: rgb(0, 0, 0);
@@ -16,7 +16,7 @@ body.dark-mode {
 
 body {
     transition: background-color 0.1s ease, color 0.1s ease;
-    background-color: var(--background-color);
+    background-color: var(--background-color) !important; 
     color: var(--text-color);
     text-align: center;
     font-family: Roboto, serif;
