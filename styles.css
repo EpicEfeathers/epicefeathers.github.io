@@ -20,6 +20,10 @@ body {
     color: var(--text-color);
     text-align: center;
     font-family: Roboto, serif;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 p img {
@@ -143,10 +147,15 @@ div a.int:hover {
     color: rgb(74, 151, 232);
 }
 
+main {
+    flex: 1;
+}
+
 .footer {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
 .footer a {
     color: var(--text-color);
 }
